@@ -1,0 +1,186 @@
+.stockphotos-form-wrapper {
+    padding: 15px 25px 25px;
+}
+.tabResults {} 
+.tabResults .stockPhoto_results p {
+    line-height: 400px;
+    font-weight: bold;
+    color: #d0d0d0;
+    text-align: center;
+    font-size: 2rem;
+}
+.stockPhoto_results {
+    min-height: 400px;
+}
+li.pixabay_image,
+li.pixabay_image .thumb_container,
+li.pixabay_image .tlsp_image_zoom {
+    width: 150px;
+    height: 150px;
+}
+li.unsplash_image,
+li.unsplash_image .thumb_container,
+li.unsplash_image .tlsp_image_zoom {
+    width: 200px;
+    height: 150px;
+}
+li.pexels_image,
+li.pexels_image .thumb_container,
+li.pexels_image .tlsp_image_zoom {
+    width: 200px;
+    height: 150px;
+}
+li .thumb_container {
+    overflow: hidden;
+}
+#upload-status.overlay {
+    background-color: rgba(0, 0, 0, 0.8);
+    display: block;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    width: 100%;
+    z-index: 10;
+}
+.stockPhoto_results ul li .button-link {
+    position: absolute;
+    margin: -5px;
+}
+.stockPhoto_results ul li {
+    cursor: pointer;
+    z-index: 1;
+}
+#photo-upload-status {
+    line-height: 22em;
+    font-size: 2em;
+    color: white;
+    text-align: center;
+    display: block;
+}
+#results-wrapper {
+    position: relative;
+}
+.stockPhoto_results ul li.selected .check {
+    background-color: #0073aa;
+    -webkit-box-shadow: 0 0 0 1px #fff, 0 0 0 2px #0073aa;
+    box-shadow: 0 0 0 1px #fff, 0 0 0 2px #0073aa;
+    display: block;
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    right: 0;
+}
+.stockPhoto_results ul li.selected .check .media-modal-icon {
+    height: 15px;
+    width: 15px;
+    margin: 5px;
+    display: block;
+    background-position: -21px 0;
+}
+.stockPhoto_results ul li {
+    float: left;
+    padding: 5px;
+    height: 150px;
+    position: relative;
+    border: 1px solid #cccccc;
+    margin: 15px 15px 0 0;
+    text-align: center;
+    margin-bottom: 0;
+    box-shadow: inset 0 0 15px rgba(0, 0, 0, .1), inset 0 0 0 1px rgba(0, 0, 0, .06);
+    -webkit-box-shadow: inset 0 0 15px rgba(0, 0, 0, .1), inset 0 0 0 1px rgba(0, 0, 0, .06);
+}
+.stockPhoto_results ul li.selected {
+    box-shadow: 0 0 0 3px #0073aa inset, 0 0 0 7px #0073aa inset;
+}
+.tabResults .stockPhoto_results:after {
+    content: '';
+    visibility: hidden;
+    display: block;
+    height: 0;
+}
+.tabResults .stockPhoto_results .zoomWindow {} 
+.tlsp_image_zoom {
+    line-height: 150px;
+}
+.tabResults .stockPhoto_results ul li img {
+    height:100%;
+}
+.pager .prev,
+.pager .next {
+    display: none;
+    padding: 4px 9px 4px 9px;
+    font-size: 13px;
+}
+.stockphotos-form-wrapper .pager, .stockphotos-form-wrapper .import {
+    margin: 15px 0;
+}
+.stockphotos-form .settings {
+    float: right;
+}
+.insert_image {
+    color: red;
+}
+.tl_stockphotos_tabs {
+    border-bottom: 1px solid #ddd;
+}
+.tl_stockphotos_tabs li {
+    display: inline-block;
+    padding: 8px 20px;
+    cursor: pointer;
+    margin-bottom: 0;
+    border-right: 1px solid #f1f1f1;
+    border-left: 1px solid #f1f1f1;
+    border-top: 1px solid #f1f1f1;
+}
+.tl_stockphotos_tabs li.active {
+    font-weight: bold;
+    background: #fff;
+    border-right: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, .07);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, .07);
+}
+.stockPhoto_results a.zoom {
+    bottom: 15px;
+    height: 24px;
+    left: 15px;
+    width: 24px;
+    z-index: 11;
+}
+.media-zoom-icon {
+    background: transparent url("../images/zoom-in-32.png") no-repeat scroll center center / 100% auto;
+    display: block;
+    height: 24px;
+    width: 24px;
+}
+.tlsp_loading {
+    background: transparent url('../images/loading_sf.gif') center center no-repeat;
+}
+.media-frame-router {
+    top: 50px;
+    height: 36px;
+}
+.media-router {
+    position: relative;
+    padding: 0 6px;
+    margin: 0;
+    clear: both;
+    user-select: none;
+}
+.media-router > a {
+    position: relative;
+    float: left;
+    padding: 8px 10px 9px;
+    margin: 0;
+    height: 18px;
+}
+.media-router .active,
+.media-router > a.active:last-child {
+    margin: -1px -1px 0;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-bottom: none;
+}

@@ -1,0 +1,69 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Stock Photos WordPress Plugin\n"
+"POT-Creation-Date: 2014-06-03 15:00+0100\n"
+"PO-Revision-Date: 2014-06-04 09:44+0100\n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__;esc_html_e;esc_attr_e;esc_html__;esc_attr__\n"
+
+msgid "Photos"
+msgstr "Fotos"
+
+msgid "Cliparts"
+msgstr "Imágenes prediseñadas"
+
+msgid "Horizontal"
+msgstr "Horizontal"
+
+msgid "Vertical"
+msgstr "Vertical"
+
+msgid "Settings"
+msgstr "Configuración"
+
+msgid "Search"
+msgstr "Buscar"
+
+msgid "Insert image"
+msgstr "Insertar imagen"
+
+msgid "CC0 Image by"
+msgstr "Imagen CC0 por"
+
+msgid "All"
+msgstr "Todos"
+
+msgid "Insert image credits"
+msgstr "Inserte créditos de imagen"
+
+msgid "Stock Photos Images"
+msgstr "Stock Photos Imágenes"
+
+msgid "Stock Photos Settings"
+msgstr "Stock Photos Imágenes Configuración"
+
+msgid "Language"
+msgstr "Idioma"
+
+msgid "Images Per Page"
+msgstr "Imágenes por página"
+
+msgid "Image Types"
+msgstr "Tipo de imagen"
+
+msgid "Orientation"
+msgstr "Orientación"
+
+msgid "Attribution"
+msgstr "Atribución"
+
+msgid "Button"
+msgstr "Botón"
+
+msgid "Show Stock Photos button next to \"Add Media\""
+msgstr "Mostre botón Stock Photos lado de \"Añadir objeto\""
+
